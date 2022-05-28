@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "To-Do-List",
+    "description": "To store the daily tasks",
+    "version": "2.0.1",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "background.service_worker": {
+        "scripts": [
+            "To-do.js"
+        ]
+    },
+    "content_security_policy": {
+        "extension_page": "script-src 'self' 'sha256-qznLcsROx4GACP2dm0UCKCzCG+HiZ1guq6ZZDob/Tng='; object-src 'self'"
+    }
+}

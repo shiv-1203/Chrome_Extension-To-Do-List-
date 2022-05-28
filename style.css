@@ -1,0 +1,44 @@
+body{
+    border:2px solid black;
+    align-items: center;
+}
+.nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0% 2px;
+    padding: 0%;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.title{
+    margin-left: 5px;
+    margin-bottom: 7px;
+}
+.button1{
+    align-self: center;
+    margin:7px 5px;
+    background-color: black;
+    color: white;
+}
+.button2{
+    align-self: center;
+    margin:7px 5px;
+    background-color: black;
+    color: white;
+}
+#text{
+    border: 2px solid black;
+    margin: 0 5px;
+    width: auto;
+}
+#table{
+    margin: auto;
+    text-align: center;
+}
+.col{
+    width: 100px;
+    text-align: center;
+}
